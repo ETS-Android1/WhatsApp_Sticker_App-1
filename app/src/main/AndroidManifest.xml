@@ -36,6 +36,7 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.utekcafe.stickerapp.StickerPackDetailsActivity" />
+
         </activity>
 
         <provider
@@ -44,5 +45,10 @@
             android:enabled="true"
             android:exported="true"
             android:readPermission="com.whatsapp.sticker.READ" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+
     </application>
 </manifest>
